@@ -3,7 +3,7 @@ function getTokenId() {
   return new Promise((resolve, reject) => {
     // Simulazione di un'operazione asincrona (ad esempio, chiamata a un'API)
     setTimeout(() => {
-      const tokenId = Math.floor(Math.random() * Date.now()); // Il "Token" che verrebbe recuperato
+      const tokenId = 'abc' + Math.floor(Math.random() * Date.now()); // Il "Token" che verrebbe recuperato
       resolve(tokenId);
     }, 1000); // Simuliamo un ritardo di 1 secondo
   });
